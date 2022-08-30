@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
-
+import Fragment from './components/basicos/Fragment';
 
 ReactDOM.render(
     <div id='app'>
@@ -13,11 +13,7 @@ ReactDOM.render(
         aluno="Felipe Barbosa"
         nota="9.5"
         />
-       <ComParametro 
-        titulo="Situação Aluno"
-        aluno="Thomas"
-        nota="5"
-        />
+        <Fragment />
        </div>,
     document.getElementById('root')
 );
